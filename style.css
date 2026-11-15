@@ -1,0 +1,44 @@
+:root {
+    --light-background: hsl(0 62% 98%);
+    --primary-600: hsl(349 83% 16%);
+    --pastel-blue-600: hsl(202 38% 39%);
+    --paragraph: hsl(349 100% 0%);
+}
+
+h1 {
+    color: var(--pastel-blue-600);
+}
+
+h2 {
+    color: var(--pastel-blue-600);
+}
+
+h3 {
+    color: var(--pastel-blue-600);
+}
+
+h4 {
+    color: var(--pastel-blue-600);
+}
+
+a {
+    color: var(--pastel-blue-600);
+}
+
+ul {
+    color: var(--pastel-blue-300);
+}
+
+p {
+    color: var(--paragraph);
+}
+
+body {
+    background-color: var(--light-background);
+}
+
+button {
+    color: var(--neutral-100);
+    background-color: var(--primary-600);
+
+}

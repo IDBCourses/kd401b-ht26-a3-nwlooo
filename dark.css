@@ -1,0 +1,44 @@
+:root {
+    --pastelblue-200: hsl(200 46% 83%);
+    --dark-background: hsl(0 3% 12%);
+    --primary-500: hsl(349 48% 25%);
+    --neutral-100: hsl(28 33% 89%);
+}
+
+h1 {
+    color: var(--pastelblue-200);
+}
+
+h2 {
+    color: var(--pastelblue-200);
+}
+
+h3 {
+    color: var(--pastelblue-200);
+}
+
+h4 {
+    color: var(--pastelblue-200);
+}
+
+a {
+    color: var(--neutral-100);
+}
+
+ul {
+    color: var(--neutral-100);
+}
+
+p {
+    color: var(--neutral-100);
+}
+
+body {
+    background-color: var(--dark-background);
+}
+
+button {
+    color: var(--neutral-100);
+    background-color: var(--primary-500);
+
+}
