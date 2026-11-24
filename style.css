@@ -1,32 +1,37 @@
 :root {
-    --light-background: hsl(0 62% 98%);
+    --light-background: hsl(0, 20%, 95%);
     --primary-600: hsl(349 83% 16%);
     --pastel-blue-600: hsl(202 38% 39%);
     --paragraph: hsl(349 100% 0%);
+	--font-family: "Emilys Candy", cursive;
+	--font-weight: 400;
+
+ 
 }
 
 h1 {
-    color: var(--pastel-blue-600);
+	color: var(--pastel-blue-600);
+	font-family: var(--font-family);
+	font-weight: var(--font-weight);
+	font-size: 2.5rem;
 }
 
-h2 {
+ h2, h3 {
     color: var(--pastel-blue-600);
-}
-
-h3 {
-    color: var(--pastel-blue-600);
+	font-family: var(--font-family);
+	font-weight: var(--font-weight);
+	font-size: 1.7rem;
 }
 
 h4 {
-    color: var(--pastel-blue-600);
+	color: var(--pastel-blue-600);
+	font-family: var(--font-family);
+	font-weight: var(--font-weight);
+	font-size: 1.35rem;
 }
 
-a {
-    color: var(--pastel-blue-600);
-}
-
-ul {
-    color: var(--pastel-blue-300);
+ul, a {
+    color: var(--primary-600);
 }
 
 p {
@@ -37,8 +42,26 @@ body {
     background-color: var(--light-background);
 }
 
-button {
-    color: var(--neutral-100);
-    background-color: var(--primary-600);
+.button {
+	letter-spacing: 0.4px;
+	background-color:  hsl(49 100% 93%);
+	color:hsl(3 19% 22%);
+	border: 1.5px solid;
+	padding: 5px 5px;
+	font-size: 12px;
+	font-weight: 600;
+	box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px;
+	position: relative;
+	cursor: pointer;
+	text-decoration: none;
+	user-select: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.button:active {
+	box-shadow: 0px 0px 0px 0px;
+	top: 5px;
+	left: 5px;
 }
