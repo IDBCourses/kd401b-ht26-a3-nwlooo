@@ -1,0 +1,54 @@
+:root {
+    --font-heading: "Emilys Candy", serif;
+	--font-weight-h: 400;
+	--font-body: "IBM Plex Serif", serif;
+
+	--size-h1: 2.813rem;
+	--size-h2-h3: 2.11rem;
+	--size-h4: 1.583rem;
+	--size-body: 1.188rem;
+	--meaure: 65ch;
+	--height-body: 1.5;
+    --letter-spacing-h: 0.07em;
+}
+
+h1 {
+    font-family: var(--font-heading);
+	font-weight: var(--font-weight-h);
+	font-size: var(--size-h1);
+	font-style: normal;
+    letter-spacing: 0.09em;
+}
+
+h2, h3 {
+    font-family: var(--font-heading);
+	font-weight: var(--font-weight-h);
+	font-size: var(--size-h2-h3);
+	font-style: normal;
+    letter-spacing: var(--letter-spacing-h);
+}
+
+h4 {
+    font-family: var(--font-heading);
+	font-weight: var(--font-weight-h);
+	font-size: var(--size-h4);
+	font-style: normal;
+    letter-spacing: var(--letter-spacing-h);
+}
+
+p {
+    max-width: var(--meaure);
+}
+
+ul, a {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+body{
+    font-family: var(--font-body);
+	font-weight: 400;
+	font-size: var(--size-body);
+	line-height: var(--height-body);
+}
