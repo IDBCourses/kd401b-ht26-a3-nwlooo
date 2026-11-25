@@ -1,0 +1,69 @@
+:root {
+	--font-family-h: "Atkinson Hyperlegible Mono", sans-serif;
+    --font-family-b: "Source Serif 4", serif;
+    --font-optical-sizing: auto;
+    --font-weight-h1: 700;
+    --font-weight-h2: 700;
+    --font-weight-h: 600;
+    --font-weight-b: 400;
+
+
+	--size-h1: 2.961rem;
+	--size-h2-h3: 2.221rem;
+	--size-h4: 1.666rem;;
+	--size-body: 1.288rem;
+	--meaure: 65ch;
+	--height-body: 1.6;
+    --height-h: 1.25;
+    --letter-spacing-b: 0.07em;
+    --word-spacing-b: 0.07em;
+}
+
+h1 {
+    font-family: var(--font-family-h);
+	font-weight: var(--font-weight-h1);
+	font-size: var(--size-h1);
+    line-height: var(--height-h);
+	font-style: normal;
+}
+
+h2 {
+    font-family: var(--font-family-h);
+	font-weight: var(--font-weight-h2);
+	font-size: var(--size-h2-h3);
+    line-height: var(--height-h);
+	font-style: normal;
+}
+
+h3 {
+    font-family: var(--font-family-h);
+	font-weight: var(--font-weight-h);
+	font-size: var(--size-h2-h3);
+    line-height: var(--height-h);
+	font-style: normal;
+}
+
+h4 {
+    font-family: var(--font-family-h);
+	font-weight: var(--font-weight-h);
+	font-size: var(--size-h4);
+	font-style: normal;
+}
+
+p {
+    font-family: var(--font-family-b);
+	font-weight: var(--font-weight-b);
+	font-size: var(--size-body);
+	line-height: var(--height-body);
+    max-width: var(--meaure);
+    letter-spacing: var(--letter-spacing-b);
+    word-spacing: var(--word-spacing-b);
+}
+
+ul, a {
+    font-family: var(--font-family-b);
+    font-weight: var(--font-weight-b);
+    font-size: var(--size-body);
+    letter-spacing: var(--letter-spacing-b);
+    word-spacing: var(--word-spacing-b);
+}

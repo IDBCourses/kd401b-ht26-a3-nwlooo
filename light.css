@@ -3,31 +3,12 @@
     --primary-600: hsl(349 83% 16%);
     --pastel-blue-600: hsl(202 38% 39%);
     --paragraph: hsl(349 100% 0%);
-	--font-family: "Emilys Candy", cursive;
-	--font-weight: 400;
-
  
 }
 
-h1 {
+h1, h2, h3, h4 {
 	color: var(--pastel-blue-600);
-	font-family: var(--font-family);
-	font-weight: var(--font-weight);
-	font-size: 2.5rem;
-}
-
- h2, h3 {
-    color: var(--pastel-blue-600);
-	font-family: var(--font-family);
-	font-weight: var(--font-weight);
-	font-size: 1.7rem;
-}
-
-h4 {
-	color: var(--pastel-blue-600);
-	font-family: var(--font-family);
-	font-weight: var(--font-weight);
-	font-size: 1.35rem;
+	
 }
 
 ul, a {
@@ -36,10 +17,12 @@ ul, a {
 
 p {
     color: var(--paragraph);
+	
 }
 
 body {
     background-color: var(--light-background);
+	
 }
 
 .button {
